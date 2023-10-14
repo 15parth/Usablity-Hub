@@ -10,7 +10,7 @@
 
 :root {
     --primary-text-color: #183b56;
-    --secondary-text-color: #577592;
+    --secondary-text-color: #577591;
     --accent-color: #2294ed;
     --accent-color-dark: #1d69a3;
     --padding-inline-section: 20px;
@@ -80,7 +80,7 @@ ul {
 .primary-button {
     background-color: var(--accent-color);
     border-radius: 6px;
-    font-weight: 700;
+    font-weight: 400;
     color: white !important;
     padding: 12px 24px;
     box-shadow: 0 0 2px var(--secondary-text-color);
@@ -95,7 +95,7 @@ ul {
 .secondary-button {
     border: 0.5px solid var(--secondary-text-color);
     border-radius: 6px;
-    font-weight: 700;
+    font-weight: 400;
     color: var(--primary-text-color) !important;
     padding: 12px 24px;
     transition: 0.2s ease-out;
